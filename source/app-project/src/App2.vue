@@ -6,13 +6,12 @@
     </div>
   </template>
   <script>
-  import getEnv from '@/utils/env'
   export default {
     name: 'App',
     data() {
       return {
-        variable1: getEnv('VUE_APP_VARIABLE_1'),
-        variable2: getEnv('VUE_APP_VARIABLE_2')
+        variable1: process.env.VUE_APP_VARIABLE_1,
+        variable2: process.env.VUE_APP_VARIABLE_2,
       }
     }
   }
