@@ -10,8 +10,8 @@
     name: 'App',
     data() {
       return {
-        variable_url: process.env.VUE_APP_API_URL,
-        variable_prueba: process.env.VUE_APP_CUSTOM_MESSAGE,
+        variable_url: window.config.VUE_APP_API_URL,
+        variable_prueba: window.config.VUE_APP_CUSTOM_MESSAGE,
       }
     }
   }
