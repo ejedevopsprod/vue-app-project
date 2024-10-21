@@ -1,6 +1,6 @@
+import { createApp } from 'vue'
 import App from './App3.vue'
 
-// main.js
 
 // Cargar el archivo config.js
 fetch('/config.js')
@@ -11,11 +11,5 @@ fetch('/config.js')
     script.text = configScript;
     document.head.appendChild(script);
 
-    // Iniciar la aplicación Vue.js
-    new Vue({
-      render: (h) => h(App),
-    }).$mount('#app');
-  })
-  .catch((error) => {
-    console.error('Error al cargar config.js:', error);
-  });
+    createApp(App).mount('#app')
+    })
