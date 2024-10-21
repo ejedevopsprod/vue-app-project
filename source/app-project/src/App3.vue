@@ -1,10 +1,8 @@
 <template>
     <div id="app">
       <img alt="Vue logo" src="./assets/logo.png">
-      <div>Esta variable es de DEV: {{ variable_dev }}</div>
-      <div>Esta variable es de QA: {{ variable_qa }}</div>
-      <div>Esta variable es de PROD: {{ variable_prod }}</div>
-      <div>{{ variable2 }}</div>
+      <div>LA URL ES: {{ variable_url}}</div>
+      <div>VARIABLE DE PRUEBA: {{ variable_prueba }}</div>
     </div>
   </template>
   <script>
@@ -12,10 +10,8 @@
     name: 'App',
     data() {
       return {
-        variable_dev: process.env.VUE_APP_VARIABLE_DEV,
-        variable_qa: process.env.VUE_APP_VARIABLE_QA,
-        variable_prod: process.env.VUE_APP_VARIABLE_PROD,
-        variable2: process.env.VUE_APP_VARIABLE_2,
+        variable_url: process.env.VUE_APP_API_URL,
+        variable_prueba: process.env.VUE_APP_CUSTOM_MESSAGE,
       }
     }
   }
