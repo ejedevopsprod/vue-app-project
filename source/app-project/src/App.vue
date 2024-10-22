@@ -5,6 +5,7 @@
       <div>Esta variable es : {{ variable_message }}</div>
     </div>
   </template>
+
   <script>
   export default {
     name: 'App',
@@ -12,7 +13,6 @@
       return {
         variable_url: window.config.VUE_APP_API_URL,
         variable_message: window.config.VUE_APP_CUSTOM_MESSAGE,
-        variable_prod: window.config.VUE_APP_VARIABLE_PROD,
       }
     }
   }
