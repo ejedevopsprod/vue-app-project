@@ -44,7 +44,7 @@
 
 <style scoped>
 .imagen-redimensionada {
-  width: 200px;
-  height: 150px;
+  width: 400px;
+  height: 3000px;
 }
 </style>
