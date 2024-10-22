@@ -19,10 +19,10 @@
       return {
         companyName: window.config.VUE_APP_COMPANY_NAME,
         welcomeMessage: window.config.VUE_APP_WELCOME_MESSAGE,
-        tagline: window.config..VUE_APP_TAGLINE,
-        contactEmail: window.config..VUE_APP_CONTACT_EMAIL,
-        phoneNumber: window.config..VUE_APP_PHONE_NUMBER,
-        address: window.config..VUE_APP_ADDRESS,
+        tagline: window.config.VUE_APP_TAGLINE,
+        contactEmail: window.config.VUE_APP_CONTACT_EMAIL,
+        phoneNumber: window.config.VUE_APP_PHONE_NUMBER,
+        address: window.config.VUE_APP_ADDRESS,
         variable_url: window.config.VUE_APP_API_URL,
         variable_prueba: window.config.VUE_APP_CUSTOM_MESSAGE,
       }
