@@ -1,7 +1,7 @@
 <template>
     <div id="app">
       <img alt="Vue logo" src="./assets/logo.png">
-      <h1>{{ companyName }}</h1>
+      <div>{{ companyName }}</div>
       <div>Esta es la URL: {{ variable_url }}</div>
       <div>Esta es una variable: {{ variable_prueba }}</div>
     </div>
