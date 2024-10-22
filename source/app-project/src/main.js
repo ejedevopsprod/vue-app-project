@@ -1,5 +1,5 @@
 import { createApp } from 'vue'
-import App from './App1.vue'
+import App from './App.vue'
 
 
 // Cargar el archivo config.js
