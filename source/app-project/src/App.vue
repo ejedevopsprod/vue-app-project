@@ -1,6 +1,6 @@
 <template>
     <div id="app">
-      <img alt="Vue logo" src="./assets/profuturo.png">
+      <img alt="Vue logo" src="./assets/profuturo.png" class="imagen-redimensionada" >
       <h1>{{ companyName }}</h1>
       <p>{{ welcomeMessage }}</p>
       <p><strong>Slogan:</strong> {{ tagline }}</p>
@@ -38,5 +38,13 @@
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+</style>
+
+
+<style scoped>
+.imagen-redimensionada {
+  width: 200px;
+  height: 150px;
 }
 </style>
